@@ -104,3 +104,55 @@ Fork this repo and send us a pull request when you think you are done. There is 
 > What if I have a question?
 
 Create a new issue in this repo and we will respond and get back to you quickly.
+
+## Fullstack context
+
+Use HTML, CSS, and JavaScript (choose one of popular framework) to implement the following mock-up. You are only required to complete the desktop views, unless otherwise instructed. Application should connect to created REST API.
+
+![Superformula-front-end-test-mockup](./mockup1.png)
+
+![Superformula-front-end-test-mockup-2](./mockup2.png)
+
+> [Source Figma file](https://www.figma.com/file/6AqFCDp3bcrc5OOfogytQj/task?node-id=0%3A1)
+
+## Requirements
+
+### Functionality
+
+- The search functionality should perform real time filtering on client side data
+- List of users should be updated automatically after single user is updated
+- Infinite loading should be handled on client side (cause API doesn't allow it)
+- Infinite loading state should be saved in url query
+- Appear/Disappear of modal should be animated (feel free with choose how)
+
+### Tech stack
+
+- JS oriented
+- Use **React**, **Angular** or **VUE**.
+- Use unsplash.com to show random avatar images
+- You don't have to write configuration from scratch (you can use eg. CRA for React application)
+- Feel free to use a preprocessor like SASS/SCSS/Less or CSS in JS
+- Provide E2E and unit tests
+
+### Bonus
+
+- Write clear **documentation** on how the app was designed and how to run the code.
+- Provide components in [Storybook](https://storybook.js.org) with tests.
+- Write concise and clear commit messages.
+- Provide an online demo of the application.
+- Include subtle animations to focus attention
+- Describe optimization opportunities when you conclude
+- Handle server erros
+- Handle loading states
+
+## What We Care About
+
+Use any libraries that you would normally use if this were a real production App. Please note: we're interested in your code & the way you solve the problem, not how well you can use a particular library or feature.
+
+_We're interested in your method and how you approach the problem just as much as we're interested in the end result._
+
+Here's what you should strive for:
+
+- Good use of current HTML, CSS, and JavaScript & performance best practices.
+- Solid testing approach.
+- Extensible code.
